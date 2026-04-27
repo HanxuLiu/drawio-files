@@ -4,13 +4,13 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SwP_96tx0KL68yNrLWab-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;align=left;fontSize=20;rounded=1;" value=" 外部依赖" vertex="1">
+        <mxCell id="SwP_96tx0KL68yNrLWab-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;fontSize=20;rounded=1;" value=" 外部依赖" vertex="1">
           <mxGeometry height="152" width="370" x="-20" y="1714" as="geometry" />
         </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;align=left;rounded=1;" value="    代码对象swai_solib 加载模块" vertex="1">
+        <mxCell id="SwP_96tx0KL68yNrLWab-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;align=left;rounded=1;" value="    代码对象swai_solib 加载模块" vertex="1">
           <mxGeometry height="594" width="1657" x="-24" y="1070" as="geometry" />
         </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;fontSize=20;rounded=1;" value="   GDB Core" vertex="1">
+        <mxCell id="SwP_96tx0KL68yNrLWab-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;fontSize=20;rounded=1;" value="   GDB Core" vertex="1">
           <mxGeometry height="152" width="1256" x="380" y="1713" as="geometry" />
         </mxCell>
         <mxCell id="SwP_96tx0KL68yNrLWab-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;rounded=1;" value="so_list&#xa;更新设备库，触发 solib_add 加载符号" vertex="1">
