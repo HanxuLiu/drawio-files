@@ -1,170 +1,50 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="2jRzdCLiOb8wUMXrlMsY">
-    <mxGraphModel dx="2755" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3738" dy="1630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SwP_96tx0KL68yNrLWab-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);align=left;fontSize=18;" value="外部依赖" vertex="1">
-          <mxGeometry height="152" width="380" x="-50" y="678" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-27" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" target="SwP_96tx0KL68yNrLWab-3" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="rocm_solib 核心模块" vertex="1">
-          <mxGeometry height="584" width="1305" x="52" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);align=left;fontSize=18;" value="GDB Core" vertex="1">
-          <mxGeometry height="152" width="1095" x="370" y="678" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="so_list / solib framework" vertex="1">
-          <mxGeometry height="54" width="239" x="651" y="743.5" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="target_so_ops" vertex="1">
-          <mxGeometry height="54" width="160" x="1270" y="731.5" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="rocm_solib_ops&#xa;实现 target_so_ops" vertex="1">
-          <mxGeometry height="78" width="197" x="309" y="45" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-26" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" target="SwP_96tx0KL68yNrLWab-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-28" connectable="0" parent="SwP_96tx0KL68yNrLWab-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" value="维护" vertex="1">
-          <mxGeometry relative="1" x="-0.2909" y="2" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="rocm_update_solib_list&#xa;构建设备代码对象列表" vertex="1">
-          <mxGeometry height="78" width="227" x="427" y="501" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="rocm_solib_bfd_open&#xa;打开代码对象 BFD" vertex="1">
-          <mxGeometry height="78" width="213" x="707" y="197" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="rocm_solib_fd_cache&#xa;目标端文件描述符缓存" vertex="1">
-          <mxGeometry height="78" width="220" x="703" y="501" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="rocm_code_object_stream_file&#xa;从文件读取 ELF" vertex="1">
-          <mxGeometry height="78" width="283" x="672" y="349" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="rocm_code_object_stream_memory&#xa;从内存读取 ELF" vertex="1">
-          <mxGeometry height="78" width="318" x="1005" y="349" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="svr4_so_ops&#xa;主机共享库处理" vertex="1">
-          <mxGeometry height="78" width="172" x="440" y="731.5" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="amd_dbgapi&#xa;查询代码对象列表、URI、地址" vertex="1">
-          <mxGeometry height="102" width="260" x="40" y="707.5" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;" value="target_fileio_*&#xa;目标端文件 I/O" vertex="1">
-          <mxGeometry height="63" width="168" x="955" y="739" as="geometry" />
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-15" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;" target="SwP_96tx0KL68yNrLWab-7" value="调用">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="540" y="160" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-16" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-6" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.74;entryX=0.5;entryY=0;rounded=0;fontSize=18;" target="SwP_96tx0KL68yNrLWab-8" value="调用">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="813" y="160" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-17" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-6" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.86;entryX=0.5;entryY=0;rounded=0;fontSize=18;" target="SwP_96tx0KL68yNrLWab-12" value="继承/调用">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="141" y="160" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-18" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.14;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;" target="SwP_96tx0KL68yNrLWab-13" value="查询">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="407" y="604" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-20" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-8" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;" target="SwP_96tx0KL68yNrLWab-10" value="创建">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-21" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-8" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.8;entryX=0.5;entryY=0;rounded=0;fontSize=18;" target="SwP_96tx0KL68yNrLWab-11" value="创建">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1164" y="312" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-22" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-10" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;" target="SwP_96tx0KL68yNrLWab-9" value="使用">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-23" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.19;rounded=0;fontSize=18;" target="SwP_96tx0KL68yNrLWab-9" value="使用">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1164" y="464" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-24" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.48;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;" target="SwP_96tx0KL68yNrLWab-14" value="使用">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="807" y="604" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;align=left;fontSize=18;rounded=1;" value="外部依赖" vertex="1">
+        <mxCell id="SwP_96tx0KL68yNrLWab-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;align=left;fontSize=20;rounded=1;" value=" 外部依赖" vertex="1">
           <mxGeometry height="152" width="370" x="-20" y="1714" as="geometry" />
         </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;align=left;rounded=1;" value="    rocm_solib 核心模块" vertex="1">
-          <mxGeometry height="734" width="1660" x="-24" y="930" as="geometry" />
+        <mxCell id="SwP_96tx0KL68yNrLWab-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;align=left;rounded=1;" value="    代码对象swai_solib 加载模块" vertex="1">
+          <mxGeometry height="594" width="1660" x="-24" y="1070" as="geometry" />
         </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;fontSize=18;rounded=1;" value="GDB Core" vertex="1">
+        <mxCell id="SwP_96tx0KL68yNrLWab-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;fontSize=20;rounded=1;" value="   GDB Core" vertex="1">
           <mxGeometry height="152" width="1256" x="380" y="1713" as="geometry" />
         </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="so_list / solib framework" vertex="1">
+        <mxCell id="SwP_96tx0KL68yNrLWab-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="so_list&#xa;更新设备库，触发 solib_add 加载符号" vertex="1">
           <mxGeometry height="78" width="219" x="510" y="1750" as="geometry" />
-        </mxCell>
-        <mxCell id="Zd1VkNYU-kR8An5e4VqX-1" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" target="SwP_96tx0KL68yNrLWab-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zd1VkNYU-kR8An5e4VqX-2" connectable="0" parent="Zd1VkNYU-kR8An5e4VqX-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" value="实例化" vertex="1">
-          <mxGeometry relative="1" x="-0.1111" y="-4" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-33" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="target_so_ops" vertex="1">
-          <mxGeometry height="54" width="160" x="795.5" y="970" as="geometry" />
         </mxCell>
         <mxCell id="SwP_96tx0KL68yNrLWab-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="svr4_so_ops&#xa;主机共享库处理" vertex="1">
           <mxGeometry height="78" width="172" x="789.5" y="1751" as="geometry" />
         </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="target_fileio_*&#xa;目标端文件 I/O" vertex="1">
-          <mxGeometry height="78" width="360" x="1086.5" y="1751" as="geometry" />
+        <mxCell id="Zd1VkNYU-kR8An5e4VqX-3" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SwP_96tx0KL68yNrLWab-39" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-36" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="rocm_solib_ops&#xa;实现 target_so_ops" vertex="1">
+        <mxCell id="SwP_96tx0KL68yNrLWab-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="target_fileio_*&#xa;目标端文件 I/O" vertex="1">
+          <mxGeometry height="78" width="360" x="1101.5" y="1751" as="geometry" />
+        </mxCell>
+        <mxCell id="SwP_96tx0KL68yNrLWab-36" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="swai_solib_ops&#xa;实现 target_so_ops接口" vertex="1">
           <mxGeometry height="78" width="197" x="777" y="1105" as="geometry" />
         </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-37" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="rocm_update_solib_list&#xa;构建设备代码对象列表" vertex="1">
+        <mxCell id="SwP_96tx0KL68yNrLWab-37" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="swai_update_solib_list&#xa;构建设备代码对象列表" vertex="1">
           <mxGeometry height="78" width="227" x="320" y="1390" as="geometry" />
         </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-38" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="rocm_solib_bfd_open&#xa;打开代码对象 BFD" vertex="1">
-          <mxGeometry height="78" width="213" x="1160" y="1257" as="geometry" />
+        <mxCell id="SwP_96tx0KL68yNrLWab-38" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="swai_solib_bfd_open&#xa;打开代码对象 BFD" vertex="1">
+          <mxGeometry height="78" width="213" x="1175" y="1257" as="geometry" />
         </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="rocm_solib_fd_cache&#xa;目标端文件描述符缓存" vertex="1">
-          <mxGeometry height="78" width="220" x="1157" y="1561" as="geometry" />
+        <mxCell id="SwP_96tx0KL68yNrLWab-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="swai_solib_fd_cache&#xa;目标端文件描述符缓存" vertex="1">
+          <mxGeometry height="78" width="220" x="1172" y="1561" as="geometry" />
         </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-40" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="rocm_code_object_stream_file&#xa;从文件读取 ELF" vertex="1">
-          <mxGeometry height="78" width="283" x="950" y="1409" as="geometry" />
+        <mxCell id="SwP_96tx0KL68yNrLWab-40" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="swai_code_object_stream_file&#xa;从文件读取 ELF" vertex="1">
+          <mxGeometry height="78" width="283" x="965" y="1409" as="geometry" />
         </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-41" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="rocm_code_object_stream_memory&#xa;从内存读取 ELF" vertex="1">
-          <mxGeometry height="78" width="318" x="1283" y="1409" as="geometry" />
+        <mxCell id="SwP_96tx0KL68yNrLWab-41" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="swai_code_object_stream_memory&#xa;从内存读取 ELF" vertex="1">
+          <mxGeometry height="78" width="318" x="1298" y="1409" as="geometry" />
         </mxCell>
-        <mxCell id="SwP_96tx0KL68yNrLWab-42" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="amd_dbgapi&#xa;查询代码对象列表、URI、地址" vertex="1">
-          <mxGeometry height="78" width="260" x="70" y="1750" as="geometry" />
+        <mxCell id="SwP_96tx0KL68yNrLWab-42" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=18;rounded=1;" value="swai_dbgapi&#xa;查询代码对象列表、URI、地址" vertex="1">
+          <mxGeometry height="78" width="260" x="75" y="1750" as="geometry" />
         </mxCell>
         <mxCell id="SwP_96tx0KL68yNrLWab-43" edge="1" parent="1" source="SwP_96tx0KL68yNrLWab-36" style="startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;fontSize=18;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="SwP_96tx0KL68yNrLWab-37" value="调用">
           <mxGeometry relative="1" as="geometry">
