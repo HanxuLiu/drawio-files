@@ -19,20 +19,20 @@
         <mxCell id="Cv3PxkLlEftcnryRjvTb-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1f5fe;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);rounded=1;shadow=0;fontSize=16;align=left;" value="&#xa;" vertex="1">
           <mxGeometry height="90" width="440" x="40" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="Cv3PxkLlEftcnryRjvTb-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=15;" value="GDB CLI / MI 接口" vertex="1">
-          <mxGeometry height="60" width="260" x="190" y="295" as="geometry" />
+        <mxCell id="Cv3PxkLlEftcnryRjvTb-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=15;" value="CLI / MI 接口" vertex="1">
+          <mxGeometry height="60" width="260" x="198" y="295" as="geometry" />
         </mxCell>
         <mxCell id="Cv3PxkLlEftcnryRjvTb-36" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=15;" value="设备代码描述、SWAI 架构描述、&#xa;命令解析、断点、单步等" vertex="1">
-          <mxGeometry height="60" width="260" x="190" y="426" as="geometry" />
+          <mxGeometry height="60" width="260" x="198" y="426" as="geometry" />
         </mxCell>
         <mxCell id="Cv3PxkLlEftcnryRjvTb-37" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=15;" value="抽象封装设备访问细节" vertex="1">
-          <mxGeometry height="60" width="260" x="190" y="561" as="geometry" />
+          <mxGeometry height="60" width="260" x="198" y="561" as="geometry" />
         </mxCell>
         <mxCell id="Cv3PxkLlEftcnryRjvTb-38" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=15;" value="代码对象加载、调试会话创建、&#xa;执行控制" vertex="1">
-          <mxGeometry height="60" width="260" x="190" y="687" as="geometry" />
+          <mxGeometry height="60" width="260" x="198" y="687" as="geometry" />
         </mxCell>
         <mxCell id="Cv3PxkLlEftcnryRjvTb-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=15;" value="实现设备端指令实际调试操作" vertex="1">
-          <mxGeometry height="60" width="260" x="190" y="818" as="geometry" />
+          <mxGeometry height="60" width="260" x="198" y="818" as="geometry" />
         </mxCell>
         <mxCell id="Cv3PxkLlEftcnryRjvTb-40" edge="1" parent="1" source="Cv3PxkLlEftcnryRjvTb-34" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;shadow=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Cv3PxkLlEftcnryRjvTb-33" value="">
           <mxGeometry relative="1" as="geometry">
@@ -45,10 +45,10 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cv3PxkLlEftcnryRjvTb-42" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;rounded=0;shadow=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="Cv3PxkLlEftcnryRjvTb-31" value="">
+        <mxCell id="Cv3PxkLlEftcnryRjvTb-42" edge="1" parent="1" source="Cv3PxkLlEftcnryRjvTb-32" style="curved=1;startArrow=none;endArrow=block;rounded=0;shadow=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Cv3PxkLlEftcnryRjvTb-31" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="260" y="620" as="sourcePoint" />
+            <mxPoint x="310" y="650" as="sourcePoint" />
             <mxPoint x="185" y="723" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -58,20 +58,20 @@
             <mxPoint x="185" y="852" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUHH8mDsKHsf_icBA_xg-1" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;" value="调试器前端&lt;div style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="210" x="60" y="310" as="geometry" />
+        <mxCell id="IUHH8mDsKHsf_icBA_xg-1" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;" value="调试器前端&lt;div&gt;（GDB）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="60" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="IUHH8mDsKHsf_icBA_xg-2" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;" value="调试器核心" vertex="1">
-          <mxGeometry height="40" width="150" x="60" y="441" as="geometry" />
+        <mxCell id="IUHH8mDsKHsf_icBA_xg-2" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;align=center;" value="调试器核心&lt;div&gt;（GDB Core）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="32" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="IUHH8mDsKHsf_icBA_xg-3" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;调试抽象库&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="110" x="60" y="576" as="geometry" />
+        <mxCell id="IUHH8mDsKHsf_icBA_xg-4" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;" value="运行时接口&lt;div&gt;（SDAA）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="60" y="687" as="geometry" />
         </mxCell>
-        <mxCell id="IUHH8mDsKHsf_icBA_xg-4" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;" value="运行时接口" vertex="1">
-          <mxGeometry height="60" width="170" x="60" y="701" as="geometry" />
+        <mxCell id="IUHH8mDsKHsf_icBA_xg-5" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;" value="内核驱动&lt;div&gt;(A2Kernel)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="61" y="823" as="geometry" />
         </mxCell>
-        <mxCell id="IUHH8mDsKHsf_icBA_xg-5" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;" value="内核驱动" vertex="1">
-          <mxGeometry height="50" width="120" x="60" y="828" as="geometry" />
+        <mxCell id="IUHH8mDsKHsf_icBA_xg-8" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;align=center;" value="调试抽象库&lt;div&gt;（SWAI-DBGAPI）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="31" y="564" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
