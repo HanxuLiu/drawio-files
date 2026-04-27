@@ -5,19 +5,19 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Cv3PxkLlEftcnryRjvTb-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f3e5f5;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=16;" value="&#xa;" vertex="1">
-          <mxGeometry height="90" width="440" x="40" y="803" as="geometry" />
+          <mxGeometry height="90" width="450" x="28" y="803" as="geometry" />
         </mxCell>
         <mxCell id="Cv3PxkLlEftcnryRjvTb-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fce4ec;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=16;" value="&#xa;" vertex="1">
-          <mxGeometry height="90" width="440" x="40" y="672" as="geometry" />
+          <mxGeometry height="90" width="450" x="28" y="672" as="geometry" />
         </mxCell>
         <mxCell id="Cv3PxkLlEftcnryRjvTb-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e8f5e9;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=16;" value="" vertex="1">
-          <mxGeometry height="90" width="440" x="40" y="546" as="geometry" />
+          <mxGeometry height="90" width="450" x="28" y="546" as="geometry" />
         </mxCell>
         <mxCell id="Cv3PxkLlEftcnryRjvTb-33" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff3e0;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=16;" value="&#xa;" vertex="1">
-          <mxGeometry height="90" width="440" x="40" y="411" as="geometry" />
+          <mxGeometry height="90" width="450" x="28" y="411" as="geometry" />
         </mxCell>
         <mxCell id="Cv3PxkLlEftcnryRjvTb-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1f5fe;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);rounded=1;shadow=0;fontSize=16;align=left;" value="&#xa;" vertex="1">
-          <mxGeometry height="90" width="440" x="40" y="280" as="geometry" />
+          <mxGeometry height="90" width="450" x="28" y="280" as="geometry" />
         </mxCell>
         <mxCell id="Cv3PxkLlEftcnryRjvTb-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=15;" value="CLI / MI 接口" vertex="1">
           <mxGeometry height="60" width="260" x="198" y="295" as="geometry" />
@@ -59,19 +59,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IUHH8mDsKHsf_icBA_xg-1" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;" value="调试器前端&lt;div&gt;（GDB）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="60" y="300" as="geometry" />
+          <mxGeometry height="30" width="120" x="55" y="300" as="geometry" />
         </mxCell>
         <mxCell id="IUHH8mDsKHsf_icBA_xg-2" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;align=center;" value="调试器核心&lt;div&gt;（GDB Core）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="150" x="32" y="430" as="geometry" />
+          <mxGeometry height="40" width="150" x="28" y="430" as="geometry" />
         </mxCell>
         <mxCell id="IUHH8mDsKHsf_icBA_xg-4" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;" value="运行时接口&lt;div&gt;（SDAA）&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="110" x="60" y="687" as="geometry" />
         </mxCell>
         <mxCell id="IUHH8mDsKHsf_icBA_xg-5" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;" value="内核驱动&lt;div&gt;(A2Kernel)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="110" x="61" y="823" as="geometry" />
+          <mxGeometry height="50" width="110" x="53" y="823" as="geometry" />
         </mxCell>
         <mxCell id="IUHH8mDsKHsf_icBA_xg-8" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;align=center;" value="调试抽象库&lt;div&gt;（SWAI-DBGAPI）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="170" x="31" y="564" as="geometry" />
+          <mxGeometry height="40" width="170" x="26" y="564" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
