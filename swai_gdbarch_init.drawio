@@ -1,0 +1,114 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="-yYYjG9H8I_Nfi3ua5xP">
+    <mxGraphModel dx="1707" dy="2016" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6kjD6SM19K990d0wS3OG-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=20;" value="地址空间与返回" vertex="1">
+          <mxGeometry height="129" width="1000" x="820" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-2" parent="6kjD6SM19K990d0wS3OG-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="获取并缓存地址空间列表" vertex="1">
+          <mxGeometry height="54" width="298.25" x="81.75" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-3" parent="6kjD6SM19K990d0wS3OG-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#c8e6c9;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="返回新 gdbarch" vertex="1">
+          <mxGeometry height="54" width="288.67" x="660" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=20;" value="注册回调" vertex="1">
+          <mxGeometry height="177" width="1000" x="820" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-5" parent="6kjD6SM19K990d0wS3OG-4" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="寄存器相关回调&#xa;（名称/类型/组/DWARF映射/返回值）" vertex="1">
+          <mxGeometry height="102" width="262.09677419354836" x="43.34677419354838" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-6" parent="6kjD6SM19K990d0wS3OG-4" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="反汇编 &amp; 最大指令长度" vertex="1">
+          <mxGeometry height="54" width="226.81451612903223" x="355.8467741935483" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-7" parent="6kjD6SM19K990d0wS3OG-4" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="Lane 调试回调" vertex="1">
+          <mxGeometry height="54" width="164.31451612903223" x="633.0645161290322" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-8" parent="6kjD6SM19K990d0wS3OG-4" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="断点回调" vertex="1">
+          <mxGeometry height="54" width="124.99999999999997" x="847.7822580645159" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;" value="与 amd-dbgapi 交互" vertex="1">
+          <mxGeometry height="153" width="1000" x="820" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-10" parent="6kjD6SM19K990d0wS3OG-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="获取架构 ID" vertex="1">
+          <mxGeometry height="54" width="101.85185185185186" x="30.626780626780626" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-11" parent="6kjD6SM19K990d0wS3OG-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="获取寄存器类列表 &amp; 创建 reggroup" vertex="1">
+          <mxGeometry height="78" width="185.1851851851852" x="168.0911680911681" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-12" parent="6kjD6SM19K990d0wS3OG-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="获取寄存器列表 &amp; 缓存属性" vertex="1">
+          <mxGeometry height="54" width="183.04843304843305" x="388.88888888888886" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-13" parent="6kjD6SM19K990d0wS3OG-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="填充寄存器名、DWARF 映射" vertex="1">
+          <mxGeometry height="54" width="190.17094017094016" x="607.5498575498575" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-14" parent="6kjD6SM19K990d0wS3OG-9" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="获取 PC 寄存器并设置" vertex="1">
+          <mxGeometry height="54" width="153.84615384615384" x="826.9230769230769" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" value="基础设置" vertex="1">
+          <mxGeometry height="129" width="1000" x="820" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-16" parent="6kjD6SM19K990d0wS3OG-15" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="设置数据类型属性" vertex="1">
+          <mxGeometry height="54" width="190.2834008097166" x="43.52226720647773" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-17" parent="6kjD6SM19K990d0wS3OG-15" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="设置地址空间回调" vertex="1">
+          <mxGeometry height="54" width="190.2834008097166" x="284.412955465587" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-18" parent="6kjD6SM19K990d0wS3OG-15" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="设置帧解释回调" vertex="1">
+          <mxGeometry height="54" width="174.0890688259109" x="525.3036437246963" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-19" parent="6kjD6SM19K990d0wS3OG-15" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="设置指针与地址类回调" vertex="1">
+          <mxGeometry height="54" width="222.6720647773279" x="749.9999999999999" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-20" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1f5fe;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="开始：swai_gdbarch_init" vertex="1">
+          <mxGeometry height="54" width="260" x="969" y="-220" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-21" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="缓存检查" vertex="1">
+          <mxGeometry height="98" width="118" x="1040" y="-130" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-22" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#c8e6c9;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="返回缓存 gdbarch" vertex="1">
+          <mxGeometry height="54" width="186" x="820" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-23" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=20;" value="分配新 gdbarch 和 tdep" vertex="1">
+          <mxGeometry height="54" width="229" x="1204.5" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-24" edge="1" parent="1" source="6kjD6SM19K990d0wS3OG-20" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fontSize=20;" target="6kjD6SM19K990d0wS3OG-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-25" edge="1" parent="1" source="6kjD6SM19K990d0wS3OG-21" style="startArrow=none;endArrow=block;exitX=0;exitY=1;rounded=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" target="6kjD6SM19K990d0wS3OG-22" value="已存在">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="27" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-26" edge="1" parent="1" source="6kjD6SM19K990d0wS3OG-21" style="startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fontSize=20;" target="6kjD6SM19K990d0wS3OG-23" value="未查到">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-27" edge="1" parent="1" source="6kjD6SM19K990d0wS3OG-23" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fontSize=20;" target="6kjD6SM19K990d0wS3OG-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-28" edge="1" parent="1" source="6kjD6SM19K990d0wS3OG-15" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fontSize=20;" target="6kjD6SM19K990d0wS3OG-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="390.0000000000009" y="406.5" as="sourcePoint" />
+            <mxPoint x="440" y="407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-29" edge="1" parent="1" source="6kjD6SM19K990d0wS3OG-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fontSize=20;" target="6kjD6SM19K990d0wS3OG-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6kjD6SM19K990d0wS3OG-30" edge="1" parent="1" source="6kjD6SM19K990d0wS3OG-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fontSize=20;" target="6kjD6SM19K990d0wS3OG-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
