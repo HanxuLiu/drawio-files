@@ -1,41 +1,41 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="LnbMJ8ps5GjzqAHU3PHU">
-    <mxGraphModel dx="964" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="T47u_5j1FLVWJW2GIYJf-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1f5fe;strokeColor=#01579b;fontColor=light-dark(#333333,#cccccc);" value="GDB 核心&#xa;gdbarch.c" vertex="1">
-          <mxGeometry height="78" width="131" x="160" y="20" as="geometry" />
+        <mxCell id="T47u_5j1FLVWJW2GIYJf-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1f5fe;strokeColor=#01579b;fontColor=light-dark(#333333,#cccccc);fontSize=16;" value="GDB反汇编统一入口&#xa;gdbarch_print_insn" vertex="1">
+          <mxGeometry height="68" width="280" x="80" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="T47u_5j1FLVWJW2GIYJf-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff3e0;strokeColor=#e65100;fontColor=light-dark(#333333,#cccccc);" value="amdgpu-tdep 模块&#xa;amdgpu-tdep.c&#xa;print_insn_amdgpu" vertex="1">
-          <mxGeometry height="102" width="196" x="127" y="172" as="geometry" />
+        <mxCell id="T47u_5j1FLVWJW2GIYJf-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff3e0;strokeColor=#e65100;fontColor=light-dark(#333333,#cccccc);fontSize=16;" value="swai-tdep对应的反汇编模块&#xa;print_insn_swai" vertex="1">
+          <mxGeometry height="68" width="280" x="80" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="T47u_5j1FLVWJW2GIYJf-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e8f5e9;strokeColor=#1b5e20;fontColor=light-dark(#333333,#cccccc);" value="ROCdbgapi 公开 API&#xa;amd_dbgapi_disassemble_instruction" vertex="1">
-          <mxGeometry height="78" width="326" x="62" y="348" as="geometry" />
+        <mxCell id="T47u_5j1FLVWJW2GIYJf-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e8f5e9;strokeColor=#1b5e20;fontColor=light-dark(#333333,#cccccc);fontSize=16;" value="swai-dbgapi里封装的API&#xa;swai_dbgapi_disassemble_instruction" vertex="1">
+          <mxGeometry height="68" width="280" x="80" y="270" as="geometry" />
         </mxCell>
-        <mxCell id="T47u_5j1FLVWJW2GIYJf-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e8f5e9;strokeColor=#1b5e20;fontColor=light-dark(#333333,#cccccc);" value="ROCdbgapi 架构实现&#xa;amdgcn_architecture_t::disassemble_instruction" vertex="1">
-          <mxGeometry height="78" width="410" x="20" y="470" as="geometry" />
+        <mxCell id="T47u_5j1FLVWJW2GIYJf-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e8f5e9;strokeColor=#1b5e20;fontColor=light-dark(#333333,#cccccc);fontSize=16;" value="swai-dbgapi里具体架构的反汇编方法&#xa;disassemble_instruction" vertex="1">
+          <mxGeometry height="68" width="280" x="80" y="386.5" as="geometry" />
         </mxCell>
-        <mxCell id="T47u_5j1FLVWJW2GIYJf-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffebee;strokeColor=#b71c1c;fontColor=light-dark(#333333,#cccccc);" value="AMD COMGR 库&#xa;amd_comgr_disassemble_instruction" vertex="1">
-          <mxGeometry height="78" width="323" x="64" y="590" as="geometry" />
+        <mxCell id="T47u_5j1FLVWJW2GIYJf-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffebee;strokeColor=#b71c1c;fontColor=light-dark(#333333,#cccccc);fontSize=16;" value="利用COMGR真正解析GPU指令&#xa;amd_comgr_disassemble_instruction" vertex="1">
+          <mxGeometry height="68" width="280" x="80" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="T47u_5j1FLVWJW2GIYJf-7" edge="1" parent="1" source="T47u_5j1FLVWJW2GIYJf-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="T47u_5j1FLVWJW2GIYJf-2" value="调用 gdbarch_print_insn">
+        <mxCell id="T47u_5j1FLVWJW2GIYJf-7" edge="1" parent="1" source="T47u_5j1FLVWJW2GIYJf-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;" target="T47u_5j1FLVWJW2GIYJf-2" value="回调">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T47u_5j1FLVWJW2GIYJf-8" edge="1" parent="1" source="T47u_5j1FLVWJW2GIYJf-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="T47u_5j1FLVWJW2GIYJf-3" value="调用">
+        <mxCell id="T47u_5j1FLVWJW2GIYJf-8" edge="1" parent="1" source="T47u_5j1FLVWJW2GIYJf-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;" target="T47u_5j1FLVWJW2GIYJf-3" value="调用">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T47u_5j1FLVWJW2GIYJf-9" edge="1" parent="1" source="T47u_5j1FLVWJW2GIYJf-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;rounded=0;" target="T47u_5j1FLVWJW2GIYJf-5" value="调用">
+        <mxCell id="T47u_5j1FLVWJW2GIYJf-9" edge="1" parent="1" source="T47u_5j1FLVWJW2GIYJf-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;rounded=0;fontSize=16;" target="T47u_5j1FLVWJW2GIYJf-5" value="调用">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="224.5" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T47u_5j1FLVWJW2GIYJf-11" edge="1" parent="1" source="T47u_5j1FLVWJW2GIYJf-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="T47u_5j1FLVWJW2GIYJf-6" value="调用">
+        <mxCell id="T47u_5j1FLVWJW2GIYJf-11" edge="1" parent="1" source="T47u_5j1FLVWJW2GIYJf-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;" target="T47u_5j1FLVWJW2GIYJf-6" value="调用">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
