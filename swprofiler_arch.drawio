@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="XmoZXb5oojckuI1m4r_3">
-    <mxGraphModel dx="1285" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="918" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,14 +16,14 @@
         <mxCell id="Cv3PxkLlEftcnryRjvTb-33" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff3e0;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=16;" value="调试器核心&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" vertex="1">
           <mxGeometry height="152" width="270" x="50" y="424" as="geometry" />
         </mxCell>
-        <mxCell id="Cv3PxkLlEftcnryRjvTb-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1f5fe;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);rounded=1;shadow=0;fontSize=16;" value="调试器前端&#xa;&#xa;&#xa;&#xa;" vertex="1">
-          <mxGeometry height="104" width="264" x="56" y="286" as="geometry" />
+        <mxCell id="Cv3PxkLlEftcnryRjvTb-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1f5fe;strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);rounded=1;shadow=0;fontSize=16;" value="用户工具层（SWProfiler CLI）&#xa;&#xa;&#xa;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="150" width="434" x="100" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="Cv3PxkLlEftcnryRjvTb-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=14;" value="GDB CLI / MI 接口" vertex="1">
-          <mxGeometry height="54" width="187" x="91" y="317" as="geometry" />
+        <mxCell id="Cv3PxkLlEftcnryRjvTb-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=14;" value="命令行参数解析" vertex="1">
+          <mxGeometry height="34" width="119" x="114" y="224" as="geometry" />
         </mxCell>
-        <mxCell id="Cv3PxkLlEftcnryRjvTb-36" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=14;" value="设备代码描述、SWAI 架构描述、命令解析、断点、单步等" vertex="1">
-          <mxGeometry height="102" width="210" x="80" y="460" as="geometry" />
+        <mxCell id="Cv3PxkLlEftcnryRjvTb-36" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=14;" value="预定义事件集" vertex="1">
+          <mxGeometry height="34" width="400" x="116" y="267" as="geometry" />
         </mxCell>
         <mxCell id="Cv3PxkLlEftcnryRjvTb-37" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=14;" value="抽象封装设备访问细节" vertex="1">
           <mxGeometry height="54" width="220" x="75" y="642" as="geometry" />
@@ -34,12 +34,13 @@
         <mxCell id="Cv3PxkLlEftcnryRjvTb-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=14;" value="实现设备端指令实际调试操作" vertex="1">
           <mxGeometry height="78" width="210" x="80" y="941" as="geometry" />
         </mxCell>
-        <mxCell id="Cv3PxkLlEftcnryRjvTb-40" edge="1" parent="1" source="Cv3PxkLlEftcnryRjvTb-35" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;shadow=0;fontSize=14;" target="Cv3PxkLlEftcnryRjvTb-33" value="">
+        <mxCell id="Cv3PxkLlEftcnryRjvTb-40" edge="1" parent="1" source="Cv3PxkLlEftcnryRjvTb-34" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;shadow=0;fontSize=14;exitDx=0;exitDy=0;" target="Cv3PxkLlEftcnryRjvTb-33" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="229" y="314" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cv3PxkLlEftcnryRjvTb-41" edge="1" parent="1" source="Cv3PxkLlEftcnryRjvTb-36" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;shadow=0;fontSize=14;" target="Cv3PxkLlEftcnryRjvTb-32" value="">
+        <mxCell id="Cv3PxkLlEftcnryRjvTb-41" edge="1" parent="1" source="Cv3PxkLlEftcnryRjvTb-33" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;shadow=0;fontSize=14;exitDx=0;exitDy=0;" target="Cv3PxkLlEftcnryRjvTb-32" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
@@ -55,6 +56,12 @@
             <Array as="points" />
             <mxPoint x="185" y="927" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="G8qq68VsCzMQdfz4IEDY-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=14;" value="主程序流程" vertex="1">
+          <mxGeometry height="34" width="119" x="254" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="G8qq68VsCzMQdfz4IEDY-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);shadow=0;rounded=1;fontSize=14;" value="XML指标配置解析" vertex="1">
+          <mxGeometry height="34" width="116" x="400" y="224" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
