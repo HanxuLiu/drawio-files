@@ -47,7 +47,7 @@
         <mxCell id="G8qq68VsCzMQdfz4IEDY-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;shadow=0;rounded=1;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="主程序流程" vertex="1">
           <mxGeometry height="34" width="119" x="237" y="224" as="geometry" />
         </mxCell>
-        <mxCell id="G8qq68VsCzMQdfz4IEDY-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;shadow=0;rounded=1;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="XML指标配置解析" vertex="1">
+        <mxCell id="G8qq68VsCzMQdfz4IEDY-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;shadow=0;rounded=1;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="XML指标解析" vertex="1">
           <mxGeometry height="34" width="116" x="383" y="224" as="geometry" />
         </mxCell>
         <mxCell id="G8qq68VsCzMQdfz4IEDY-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;shadow=0;rounded=1;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="核心调度中心" vertex="1">
@@ -56,7 +56,7 @@
         <mxCell id="G8qq68VsCzMQdfz4IEDY-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;shadow=0;rounded=1;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="事件分组 / 配置计划构建" vertex="1">
           <mxGeometry height="34" width="262" x="238" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="G8qq68VsCzMQdfz4IEDY-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;shadow=0;rounded=1;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="XML指标配置解析" vertex="1">
+        <mxCell id="G8qq68VsCzMQdfz4IEDY-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;shadow=0;rounded=1;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="硬件信息抽象" vertex="1">
           <mxGeometry height="34" width="116" x="383" y="450" as="geometry" />
         </mxCell>
         <mxCell id="G8qq68VsCzMQdfz4IEDY-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;shadow=0;rounded=1;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="硬件地址映射" vertex="1">
