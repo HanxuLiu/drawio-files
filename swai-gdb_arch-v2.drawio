@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="XmoZXb5oojckuI1m4r_3">
-    <mxGraphModel dx="1205" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1071" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,8 +58,8 @@
             <mxPoint x="185" y="852" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IUHH8mDsKHsf_icBA_xg-1" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;" value="调试器前端&lt;div&gt;（GDB）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="55" y="300" as="geometry" />
+        <mxCell id="IUHH8mDsKHsf_icBA_xg-1" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;align=center;" value="调试器前端&lt;div&gt;（SWAI-GDB）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="135" x="39" y="300" as="geometry" />
         </mxCell>
         <mxCell id="IUHH8mDsKHsf_icBA_xg-2" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=20;align=center;" value="调试器核心&lt;div&gt;（GDB Core）&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="150" x="28" y="430" as="geometry" />
