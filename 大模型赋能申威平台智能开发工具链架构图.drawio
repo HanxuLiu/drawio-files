@@ -140,28 +140,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Znf1TaMyvPoBGVpn2lC9-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="" vertex="1">
-          <mxGeometry height="165" width="1060" x="1560" y="300" as="geometry" />
+          <mxGeometry height="165" width="1060" x="1560" y="306" as="geometry" />
         </mxCell>
         <mxCell id="Znf1TaMyvPoBGVpn2lC9-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;strokeWidth=2;" value="大模型能力层" vertex="1">
-          <mxGeometry height="30" width="220" x="1545" y="367.5" as="geometry" />
+          <mxGeometry height="30" width="220" x="1545" y="373.5" as="geometry" />
         </mxCell>
         <mxCell id="Znf1TaMyvPoBGVpn2lC9-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="语义理解" vertex="1">
-          <mxGeometry height="40" width="145" x="2450" y="330" as="geometry" />
+          <mxGeometry height="40" width="145" x="2450" y="336" as="geometry" />
         </mxCell>
         <mxCell id="Znf1TaMyvPoBGVpn2lC9-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="智能编写" vertex="1">
-          <mxGeometry height="40" width="120" x="2040" y="330" as="geometry" />
+          <mxGeometry height="40" width="120" x="2000" y="336" as="geometry" />
         </mxCell>
         <mxCell id="Znf1TaMyvPoBGVpn2lC9-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="错误定位" vertex="1">
-          <mxGeometry height="40" width="120" x="1770" y="330" as="geometry" />
+          <mxGeometry height="40" width="120" x="1770" y="336" as="geometry" />
         </mxCell>
         <mxCell id="Znf1TaMyvPoBGVpn2lC9-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="汇编指令分析" vertex="1">
-          <mxGeometry height="40" width="160" x="2225" y="397.5" as="geometry" />
+          <mxGeometry height="40" width="160" x="2215" y="403.5" as="geometry" />
         </mxCell>
         <mxCell id="Znf1TaMyvPoBGVpn2lC9-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="分析诊断" vertex="1">
-          <mxGeometry height="40" width="120" x="1770" y="400" as="geometry" />
+          <mxGeometry height="40" width="120" x="1770" y="406" as="geometry" />
         </mxCell>
         <mxCell id="Znf1TaMyvPoBGVpn2lC9-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="代码生成" vertex="1">
-          <mxGeometry height="40" width="120" x="2040" y="397.5" as="geometry" />
+          <mxGeometry height="40" width="120" x="2000" y="403.5" as="geometry" />
         </mxCell>
         <mxCell id="Znf1TaMyvPoBGVpn2lC9-82" edge="1" parent="1" source="Znf1TaMyvPoBGVpn2lC9-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="Znf1TaMyvPoBGVpn2lC9-67">
           <mxGeometry relative="1" as="geometry" />
@@ -221,10 +221,10 @@
           <mxGeometry height="30" width="220" x="2366" y="70.5" as="geometry" />
         </mxCell>
         <mxCell id="W5X7UWDAXZUjujCgdPK1-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="反向注释" vertex="1">
-          <mxGeometry height="40" width="145" x="2450" y="397.5" as="geometry" />
+          <mxGeometry height="40" width="145" x="2450" y="403.5" as="geometry" />
         </mxCell>
         <mxCell id="W5X7UWDAXZUjujCgdPK1-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="编译运行一体化" vertex="1">
-          <mxGeometry height="40" width="160" x="2228" y="330" as="geometry" />
+          <mxGeometry height="40" width="160" x="2218" y="336" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
