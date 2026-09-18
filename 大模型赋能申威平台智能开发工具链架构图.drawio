@@ -1,0 +1,178 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="i7HArcjUfjzsICdGY-9-" name="第 1 页">
+    <mxGraphModel dx="1377" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="1060" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#1F3864;" value="大模型赋能申威平台智能开发工具链总体架构" vertex="1">
+          <mxGeometry height="40" width="880" x="180" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;fontColor=#1F3864;verticalAlign=top;spacingTop=6;arcSize=6;" value="智能应用层（研究内容）" vertex="1">
+          <mxGeometry height="180" width="1120" x="60" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;fontColor=#1F3864;" value="智能调试辅助" vertex="1">
+          <mxGeometry height="100" width="200" x="90" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F8FD;strokeColor=none;fontSize=11;fontColor=#333333;align=left;spacingLeft=8;verticalAlign=middle;" value="• 段错误、指令异常等&#xa;• 精准识别与定位&#xa;• 报错原因分析&#xa;• 修复建议生成" vertex="1">
+          <mxGeometry height="90" width="200" x="90" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;fontColor=#1F3864;" value="智能代码开发" vertex="1">
+          <mxGeometry height="100" width="200" x="320" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F8FD;strokeColor=none;fontSize=11;fontColor=#333333;align=left;spacingLeft=8;verticalAlign=middle;" value="• C/C++/GO 代码自动编写&#xa;• 代码正确编译&#xa;• 编译运行一体化&#xa;• 大模型精准接入 IDE" vertex="1">
+          <mxGeometry height="90" width="200" x="320" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;fontColor=#1F3864;" value="智能代码理解" vertex="1">
+          <mxGeometry height="100" width="200" x="550" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F8FD;strokeColor=none;fontSize=11;fontColor=#333333;align=left;spacingLeft=8;verticalAlign=middle;" value="• 申威二进制自动注释与分析&#xa;• 汇编指令理解&#xa;• 代码反向注释&#xa;• 精准性 ≥ 80%" vertex="1">
+          <mxGeometry height="90" width="200" x="550" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;fontColor=#1F3864;" value="应用成效" vertex="1">
+          <mxGeometry height="100" width="360" x="780" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F8FD;strokeColor=none;fontSize=12;fontStyle=1;fontColor=#1F3864;align=center;verticalAlign=middle;" value="大模型赋能，提升申威平台&#xa;开发效率与易用性" vertex="1">
+          <mxGeometry height="90" width="340" x="790" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;fontStyle=1;fontColor=#2D6A2D;verticalAlign=top;spacingTop=6;arcSize=6;" value="工具链接入层（研究思路）" vertex="1">
+          <mxGeometry height="190" width="1120" x="60" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;fontSize=13;fontStyle=1;fontColor=#2D6A2D;" value="GDB + Python 插件" vertex="1">
+          <mxGeometry height="110" width="320" x="90" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5FAF4;strokeColor=none;fontSize=11;fontColor=#333333;align=left;spacingLeft=8;verticalAlign=middle;" value="• 大模型能力接入申威调试器&#xa;• 调试器命令行直接交互&#xa;• 问题定位分析报告输出" vertex="1">
+          <mxGeometry height="100" width="320" x="90" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;fontSize=13;fontStyle=1;fontColor=#2D6A2D;" value="IDE + Agent 插件" vertex="1">
+          <mxGeometry height="110" width="320" x="440" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5FAF4;strokeColor=none;fontSize=11;fontColor=#333333;align=left;spacingLeft=8;verticalAlign=middle;" value="• 大模型引入集成开发环境&#xa;• 高效集成开发环境套件&#xa;• 支持代码编写与编译运行" vertex="1">
+          <mxGeometry height="100" width="320" x="440" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;fontSize=13;fontStyle=1;fontColor=#2D6A2D;" value="大模型微调（指令语料库）" vertex="1">
+          <mxGeometry height="110" width="350" x="790" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5FAF4;strokeColor=none;fontSize=11;fontColor=#333333;align=left;spacingLeft=8;verticalAlign=middle;" value="• 构建申威汇编语料库&#xa;• 微调让大模型理解申威指令&#xa;• 支持汇编分析注释" vertex="1">
+          <mxGeometry height="100" width="350" x="790" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;fontColor=#8A5A00;verticalAlign=top;spacingTop=6;arcSize=6;" value="大模型能力层" vertex="1">
+          <mxGeometry height="150" width="1120" x="60" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#d79b00;fontSize=12;fontStyle=1;fontColor=#8A5A00;" value="语义理解" vertex="1">
+          <mxGeometry height="70" width="180" x="100" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#d79b00;fontSize=12;fontStyle=1;fontColor=#8A5A00;" value="代码生成" vertex="1">
+          <mxGeometry height="70" width="180" x="300" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#d79b00;fontSize=12;fontStyle=1;fontColor=#8A5A00;" value="错误诊断" vertex="1">
+          <mxGeometry height="70" width="180" x="500" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#d79b00;fontSize=12;fontStyle=1;fontColor=#8A5A00;" value="指令分析与注释" vertex="1">
+          <mxGeometry height="70" width="180" x="700" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#d79b00;fontSize=12;fontStyle=1;fontColor=#8A5A00;" value="修复建议" vertex="1">
+          <mxGeometry height="70" width="180" x="900" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;fontStyle=1;fontColor=#5B3A6E;verticalAlign=top;spacingTop=6;arcSize=6;" value="申威平台层" vertex="1">
+          <mxGeometry height="150" width="1120" x="60" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9673a6;fontSize=12;fontStyle=1;fontColor=#5B3A6E;" value="申威调试器（GDB）" vertex="1">
+          <mxGeometry height="70" width="240" x="100" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9673a6;fontSize=12;fontStyle=1;fontColor=#5B3A6E;" value="申威编译工具链（C/C++/GO）" vertex="1">
+          <mxGeometry height="70" width="260" x="370" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9673a6;fontSize=12;fontStyle=1;fontColor=#5B3A6E;" value="申威指令集与二进制" vertex="1">
+          <mxGeometry height="70" width="240" x="660" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9673a6;fontSize=12;fontStyle=1;fontColor=#5B3A6E;" value="申威指令语料库" vertex="1">
+          <mxGeometry height="70" width="220" x="930" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="50" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#1F3864;strokeWidth=2;endArrow=blockThin;endFill=1;startArrow=blockThin;startFill=1;" target="20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51" connectable="0" parent="50" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1F3864;" value="能力调用" vertex="1">
+          <mxGeometry relative="1" x="-0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#1F3864;strokeWidth=2;endArrow=blockThin;endFill=1;startArrow=blockThin;startFill=1;" target="30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="53" connectable="0" parent="52" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1F3864;" value="模型推理" vertex="1">
+          <mxGeometry relative="1" x="-0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="54" edge="1" parent="1" source="30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#1F3864;strokeWidth=2;endArrow=blockThin;endFill=1;startArrow=blockThin;startFill=1;" target="40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55" connectable="0" parent="54" style="edgeLabel;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1F3864;" value="数据支撑 / 环境运行" vertex="1">
+          <mxGeometry relative="1" x="-0.1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;fontColor=#8B2E24;verticalAlign=top;spacingTop=4;" value="实现方式" vertex="1">
+          <mxGeometry height="790" width="150" x="1200" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#b85450;fontSize=11;fontColor=#8B2E24;align=center;verticalAlign=top;spacingTop=8;" value="① GDB+Python 插件接入调试器" vertex="1">
+          <mxGeometry height="100" width="130" x="1210" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#b85450;fontSize=11;fontColor=#8B2E24;align=center;verticalAlign=top;spacingTop=8;" value="② IDE+Agent 插件接入" vertex="1">
+          <mxGeometry height="80" width="130" x="1210" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#b85450;fontSize=11;fontColor=#8B2E24;align=center;verticalAlign=top;spacingTop=8;" value="③ 大模型微调 + 申威指令语料库" vertex="1">
+          <mxGeometry height="100" width="130" x="1210" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="80" width="800" x="1560" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;strokeWidth=2;" value="基础底座层" vertex="1">
+          <mxGeometry height="30" width="220" x="1530" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;strokeWidth=2;" value="通用大模型（LLM）" vertex="1">
+          <mxGeometry height="40" width="220" x="1777" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;strokeWidth=2;" value="申威平台环境" vertex="1">
+          <mxGeometry height="40" width="220" x="2087" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-84" edge="1" parent="1" source="Znf1TaMyvPoBGVpn2lC9-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="Znf1TaMyvPoBGVpn2lC9-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="165" width="800" x="1560" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;strokeWidth=2;" value="大模型能力层" vertex="1">
+          <mxGeometry height="30" width="220" x="1545" y="367.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="语义理解" vertex="1">
+          <mxGeometry height="40" width="120" x="2160" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="智能编写" vertex="1">
+          <mxGeometry height="40" width="120" x="1960" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="错误定位" vertex="1">
+          <mxGeometry height="40" width="120" x="1770" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="指令分析与注释" vertex="1">
+          <mxGeometry height="40" width="180" x="2130" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="分析诊断" vertex="1">
+          <mxGeometry height="40" width="120" x="1770" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;fontSize=22;fontColor=default;fontFamily=Helvetica;align=center;verticalAlign=middle;strokeWidth=2;" value="代码生成" vertex="1">
+          <mxGeometry height="40" width="120" x="1960" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-82" edge="1" parent="1" source="Znf1TaMyvPoBGVpn2lC9-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="Znf1TaMyvPoBGVpn2lC9-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="220" width="800" x="1560" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Znf1TaMyvPoBGVpn2lC9-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;strokeWidth=2;" value="工具链接入层" vertex="1">
+          <mxGeometry height="30" width="220" x="1545" y="113" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
