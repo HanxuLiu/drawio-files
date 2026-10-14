@@ -68,53 +68,50 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i7lX78h1jUrQF1LXhVSw" name="超节点调试与性能分析工具整体工作流程">
-    <mxGraphModel dx="964" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1015" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#1A365D;fontStyle=1;" value="图 3  超节点调试与性能分析工具整体工作流程" vertex="1">
-          <mxGeometry height="34" width="1000" x="295" y="625" as="geometry" />
-        </mxCell>
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-2" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#E6F4EA;strokeColor=#34A853;strokeWidth=2;fontSize=12;fontColor=#1E6B33;align=center;verticalAlign=middle;fontStyle=1;" value="阶段一&lt;br&gt;任务启动&lt;br&gt;与工具挂载" vertex="1">
+        <mxCell id="RrF2JGXKl8CvwQwNoY_O-2" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=20;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="阶段一&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;任务启动&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;与工具运行&lt;/span&gt;" vertex="1">
           <mxGeometry height="118" width="165" x="333" y="773" as="geometry" />
         </mxCell>
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-3" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#1A73E8;strokeWidth=2;fontSize=12;fontColor=#0B3D91;align=center;verticalAlign=middle;fontStyle=1;" value="阶段二&lt;br&gt;数据采集&lt;br&gt;与控制" vertex="1">
+        <mxCell id="RrF2JGXKl8CvwQwNoY_O-3" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=20;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="阶段二&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;数据采集&lt;br&gt;与执行控制&lt;/span&gt;" vertex="1">
           <mxGeometry height="118" width="165" x="523" y="773" as="geometry" />
         </mxCell>
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-4" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2.2;endArrow=block;endFill=1;" value="">
+        <mxCell id="RrF2JGXKl8CvwQwNoY_O-4" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2.2;endArrow=block;endFill=1;fontColor=#000000;fontSize=20;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="500" y="832" as="sourcePoint" />
             <mxPoint x="521" y="832" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-5" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;fontSize=12;fontColor=#4A148C;align=center;verticalAlign=middle;fontStyle=1;" value="阶段三&lt;br&gt;数据汇聚&lt;br&gt;与关联分析" vertex="1">
+        <mxCell id="RrF2JGXKl8CvwQwNoY_O-5" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=20;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="阶段三&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;数据汇聚&lt;br&gt;与关联分析&lt;/span&gt;" vertex="1">
           <mxGeometry height="118" width="165" x="713" y="773" as="geometry" />
         </mxCell>
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-6" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2.2;endArrow=block;endFill=1;" value="">
+        <mxCell id="RrF2JGXKl8CvwQwNoY_O-6" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2.2;endArrow=block;endFill=1;fontColor=#000000;fontSize=20;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="690" y="832" as="sourcePoint" />
             <mxPoint x="711" y="832" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-7" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;strokeWidth=2;fontSize=12;fontColor=#B45309;align=center;verticalAlign=middle;fontStyle=1;" value="阶段四&lt;br&gt;结果呈现&lt;br&gt;与交互" vertex="1">
+        <mxCell id="RrF2JGXKl8CvwQwNoY_O-7" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=20;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="阶段四&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;结果呈现&lt;br&gt;与交互&lt;/span&gt;" vertex="1">
           <mxGeometry height="118" width="165" x="903" y="773" as="geometry" />
         </mxCell>
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-8" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2.2;endArrow=block;endFill=1;" value="">
+        <mxCell id="RrF2JGXKl8CvwQwNoY_O-8" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2.2;endArrow=block;endFill=1;fontColor=#000000;fontSize=20;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="880" y="832" as="sourcePoint" />
             <mxPoint x="901" y="832" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-9" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=12;fontColor=#3C4043;align=center;verticalAlign=middle;fontStyle=1;" value="阶段五&lt;br&gt;会话管理&lt;br&gt;与资源清理" vertex="1">
+        <mxCell id="RrF2JGXKl8CvwQwNoY_O-9" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=20;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;" value="阶段五&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;会话管理&lt;br&gt;与资源清理&lt;/span&gt;" vertex="1">
           <mxGeometry height="118" width="165" x="1093" y="773" as="geometry" />
         </mxCell>
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-10" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2.2;endArrow=block;endFill=1;" value="">
+        <mxCell id="RrF2JGXKl8CvwQwNoY_O-10" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2.2;endArrow=block;endFill=1;fontColor=#000000;fontSize=20;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1070" y="832" as="sourcePoint" />
             <mxPoint x="1091" y="832" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-11" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#EA4335;strokeWidth=2;endArrow=block;endFill=1;dashed=1;" value="">
+        <mxCell id="RrF2JGXKl8CvwQwNoY_O-11" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=light-dark(#000000, #ff796d);strokeWidth=2;endArrow=block;endFill=1;dashed=1;fontColor=#000000;" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="415.5" y="971" />
@@ -124,14 +121,8 @@
             <mxPoint x="1175.5" y="891" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11.5;fontColor=#EA4335;fontStyle=1;" value="迭代反馈：性能异常 → 引导调试定位 → 再次采集验证" vertex="1">
+        <mxCell id="RrF2JGXKl8CvwQwNoY_O-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontColor=#000000;fontStyle=0;" value="迭代反馈：性能异常 → 引导调试定位 → 再次采集验证" vertex="1">
           <mxGeometry height="30" width="700" x="445" y="977" as="geometry" />
-        </mxCell>
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11.5;fontColor=#5F6368;" value="阶段二为核心执行期：调试下发断点 / 观察点 / 控制指令；性能侧配置计数器、打点、采样" vertex="1">
-          <mxGeometry height="28" width="920" x="335" y="1015" as="geometry" />
-        </mxCell>
-        <mxCell id="RrF2JGXKl8CvwQwNoY_O-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11.5;fontColor=#5F6368;" value="阶段三依赖全局时间基准对齐，构建跨卡因果关系链" vertex="1">
-          <mxGeometry height="28" width="920" x="335" y="1047" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
