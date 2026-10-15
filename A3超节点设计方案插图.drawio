@@ -196,100 +196,97 @@
     </mxGraphModel>
   </diagram>
   <diagram id="scv_CUh3FrSNIhINmav2" name="调试工具模块分层结构">
-    <mxGraphModel dx="1015" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="964" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uo8WuQSj15B845aeTxWE-2" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#E6F4EA;strokeColor=#34A853;strokeWidth=2;fontSize=20;fontColor=#1E6B33;align=center;verticalAlign=middle;fontStyle=1;" value="调试前端层" vertex="1">
+        <mxCell id="uo8WuQSj15B845aeTxWE-2" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="调试前端层" vertex="1">
           <mxGeometry height="100" width="210" x="435" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="uo8WuQSj15B845aeTxWE-3" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#34A853;strokeWidth=2;fontSize=20;fontColor=#202124;align=center;verticalAlign=middle;" value="命令行调试器（类 GDB）· 图形化多卡调试界面" vertex="1">
+        <mxCell id="uo8WuQSj15B845aeTxWE-3" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="命令行调试器 · 图形化多卡调试界面" vertex="1">
           <mxGeometry height="100" width="630" x="665" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="uo8WuQSj15B845aeTxWE-4" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;strokeWidth=2;fontSize=20;fontColor=#B45309;align=center;verticalAlign=middle;fontStyle=1;" value="调试协议层" vertex="1">
+        <mxCell id="uo8WuQSj15B845aeTxWE-4" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="调试协议层" vertex="1">
           <mxGeometry height="100" width="210" x="435" y="780" as="geometry" />
         </mxCell>
-        <mxCell id="uo8WuQSj15B845aeTxWE-5" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FB8C00;strokeWidth=2;fontSize=20;fontColor=#202124;align=center;verticalAlign=middle;" value="同步 / 异步命令 · 调试事件上报 · 数据读写请求" vertex="1">
+        <mxCell id="uo8WuQSj15B845aeTxWE-5" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="同步 / 异步命令 · 调试事件上报 · 数据读写请求" vertex="1">
           <mxGeometry height="100" width="630" x="665" y="780" as="geometry" />
         </mxCell>
-        <mxCell id="uo8WuQSj15B845aeTxWE-6" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=20;" value="">
+        <mxCell id="uo8WuQSj15B845aeTxWE-6" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=22;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="752" as="sourcePoint" />
             <mxPoint x="540" y="778" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uo8WuQSj15B845aeTxWE-7" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#1A73E8;strokeWidth=2;fontSize=20;fontColor=#0B3D91;align=center;verticalAlign=middle;fontStyle=1;" value="调试服务层" vertex="1">
+        <mxCell id="uo8WuQSj15B845aeTxWE-7" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="调试服务层" vertex="1">
           <mxGeometry height="100" width="210" x="435" y="910" as="geometry" />
         </mxCell>
-        <mxCell id="uo8WuQSj15B845aeTxWE-8" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A73E8;strokeWidth=2;fontSize=20;fontColor=#202124;align=center;verticalAlign=middle;" value="会话管理 · 命令路由 · 多卡协调 · 全局状态视图" vertex="1">
+        <mxCell id="uo8WuQSj15B845aeTxWE-8" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="会话管理 · 命令路由 · 多卡协调 · 全局状态视图" vertex="1">
           <mxGeometry height="100" width="630" x="665" y="910" as="geometry" />
         </mxCell>
-        <mxCell id="uo8WuQSj15B845aeTxWE-9" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=20;" value="">
+        <mxCell id="uo8WuQSj15B845aeTxWE-9" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=22;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="882" as="sourcePoint" />
             <mxPoint x="540" y="908" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uo8WuQSj15B845aeTxWE-10" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;fontSize=20;fontColor=#4A148C;align=center;verticalAlign=middle;fontStyle=1;" value="调试代理层" vertex="1">
+        <mxCell id="uo8WuQSj15B845aeTxWE-10" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="调试代理层" vertex="1">
           <mxGeometry height="100" width="210" x="435" y="1040" as="geometry" />
         </mxCell>
-        <mxCell id="uo8WuQSj15B845aeTxWE-11" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#7B1FA2;strokeWidth=2;fontSize=20;fontColor=#202124;align=center;verticalAlign=middle;" value="卡侧轻量代理 · 宿主侧代理 · 断点 / 观察点执行单元" vertex="1">
+        <mxCell id="uo8WuQSj15B845aeTxWE-11" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="卡侧轻量代理 · 主机侧代理 · 断点 / 观察点执行单元" vertex="1">
           <mxGeometry height="100" width="630" x="665" y="1040" as="geometry" />
         </mxCell>
-        <mxCell id="uo8WuQSj15B845aeTxWE-12" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=20;" value="">
+        <mxCell id="uo8WuQSj15B845aeTxWE-12" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=22;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="1012" as="sourcePoint" />
             <mxPoint x="540" y="1038" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uo8WuQSj15B845aeTxWE-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#5F6368;" value="向下逐层穿透至 AI 加速卡硬件调试单元（断点单元 / Trace 单元 / 寄存器）" vertex="1">
-          <mxGeometry height="30" width="860" x="435" y="1161" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="hy6ygTUnLERvWcLZ5pYQ" name="性能分析工具模块分层结构">
-    <mxGraphModel dx="1015" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="964" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bstbJHJJH8PprqB-UMSa-2" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#E6F4EA;strokeColor=#34A853;strokeWidth=2;fontSize=20;fontColor=#1E6B33;align=center;verticalAlign=middle;fontStyle=1;" value="性能可视化层" vertex="1">
+        <mxCell id="bstbJHJJH8PprqB-UMSa-2" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="性能可视化层" vertex="1">
           <mxGeometry height="100" width="210" x="420" y="659" as="geometry" />
         </mxCell>
-        <mxCell id="bstbJHJJH8PprqB-UMSa-3" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#34A853;strokeWidth=2;fontSize=20;fontColor=#202124;align=center;verticalAlign=middle;" value="Timeline · 火焰图 · 指标仪表盘 · 瓶颈热力图" vertex="1">
+        <mxCell id="bstbJHJJH8PprqB-UMSa-3" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="Timeline · 火焰图 · 指标仪表盘 · 瓶颈热力图" vertex="1">
           <mxGeometry height="100" width="630" x="650" y="659" as="geometry" />
         </mxCell>
-        <mxCell id="bstbJHJJH8PprqB-UMSa-4" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#FB8C00;strokeWidth=2;fontSize=20;fontColor=#B45309;align=center;verticalAlign=middle;fontStyle=1;" value="分析引擎层" vertex="1">
+        <mxCell id="bstbJHJJH8PprqB-UMSa-4" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="分析引擎层" vertex="1">
           <mxGeometry height="100" width="210" x="420" y="789" as="geometry" />
         </mxCell>
-        <mxCell id="bstbJHJJH8PprqB-UMSa-5" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FB8C00;strokeWidth=2;fontSize=20;fontColor=#202124;align=center;verticalAlign=middle;" value="指标计算 · 瓶颈检测 · 跨卡关联 · 扩展性分析" vertex="1">
+        <mxCell id="bstbJHJJH8PprqB-UMSa-5" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="指标计算 · 瓶颈检测 · 跨卡关联 · 扩展性分析" vertex="1">
           <mxGeometry height="100" width="630" x="650" y="789" as="geometry" />
         </mxCell>
-        <mxCell id="bstbJHJJH8PprqB-UMSa-6" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=20;" value="">
+        <mxCell id="bstbJHJJH8PprqB-UMSa-6" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=22;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="525" y="761" as="sourcePoint" />
             <mxPoint x="525" y="787" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bstbJHJJH8PprqB-UMSa-7" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#E8F0FE;strokeColor=#1A73E8;strokeWidth=2;fontSize=20;fontColor=#0B3D91;align=center;verticalAlign=middle;fontStyle=1;" value="数据汇聚层" vertex="1">
+        <mxCell id="bstbJHJJH8PprqB-UMSa-7" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="数据汇聚层" vertex="1">
           <mxGeometry height="100" width="210" x="420" y="919" as="geometry" />
         </mxCell>
-        <mxCell id="bstbJHJJH8PprqB-UMSa-8" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A73E8;strokeWidth=2;fontSize=20;fontColor=#202124;align=center;verticalAlign=middle;" value="跨卡数据汇聚 · 全局时间基准对齐 · 压缩传输" vertex="1">
+        <mxCell id="bstbJHJJH8PprqB-UMSa-8" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="跨卡数据汇聚 · 全局时间基准对齐 · 压缩传输" vertex="1">
           <mxGeometry height="100" width="630" x="650" y="919" as="geometry" />
         </mxCell>
-        <mxCell id="bstbJHJJH8PprqB-UMSa-9" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=20;" value="">
+        <mxCell id="bstbJHJJH8PprqB-UMSa-9" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=22;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="525" y="891" as="sourcePoint" />
             <mxPoint x="525" y="917" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bstbJHJJH8PprqB-UMSa-10" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=2;fontSize=20;fontColor=#4A148C;align=center;verticalAlign=middle;fontStyle=1;" value="采集代理层" vertex="1">
+        <mxCell id="bstbJHJJH8PprqB-UMSa-10" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="性能采集层" vertex="1">
           <mxGeometry height="100" width="210" x="420" y="1049" as="geometry" />
         </mxCell>
-        <mxCell id="bstbJHJJH8PprqB-UMSa-11" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#7B1FA2;strokeWidth=2;fontSize=20;fontColor=#202124;align=center;verticalAlign=middle;" value="硬件计数器 · 时间戳打点 · 采样 · 软件插桩" vertex="1">
+        <mxCell id="bstbJHJJH8PprqB-UMSa-11" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="硬件计数器 · 时间戳打点 · 采样 · 软件插桩" vertex="1">
           <mxGeometry height="100" width="630" x="650" y="1049" as="geometry" />
         </mxCell>
-        <mxCell id="bstbJHJJH8PprqB-UMSa-12" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=20;" value="">
+        <mxCell id="bstbJHJJH8PprqB-UMSa-12" edge="1" parent="1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=22;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="525" y="1021" as="sourcePoint" />
             <mxPoint x="525" y="1047" as="targetPoint" />
@@ -601,13 +598,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mNllpLgGagK-6smlxPtv" name="超节点全局 Timeline 示意">
-    <mxGraphModel dx="1015" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1048" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_3RMw-T6m1LwHC8mCFnw-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#1A365D;fontStyle=1;" value="图 8  超节点全局 Timeline 示意（卡组 · 单卡 · 部件三层视图）" vertex="1">
-          <mxGeometry height="34" width="1000" x="311" y="119" as="geometry" />
-        </mxCell>
         <mxCell id="_3RMw-T6m1LwHC8mCFnw-2" parent="1" style="rounded=0;arcSize=6;whiteSpace=wrap;html=1;fillColor=#4285F4;strokeColor=#4285F4;strokeWidth=1;fontSize=20;fontColor=#202124;align=center;verticalAlign=middle;" value="" vertex="1">
           <mxGeometry height="22" width="22" x="471" y="165" as="geometry" />
         </mxCell>
@@ -803,11 +797,11 @@
         <mxCell id="_3RMw-T6m1LwHC8mCFnw-55" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#5F6368;" value="全局时间 (ms)" vertex="1">
           <mxGeometry height="26" width="790" x="471" y="621" as="geometry" />
         </mxCell>
-        <mxCell id="_3RMw-T6m1LwHC8mCFnw-56" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#EA4335;fontStyle=1;" value="▶ 跨卡通信热点：卡 #0 / #1 / #2 在 2.4–4.8 ms 窗口内密集通信" vertex="1">
-          <mxGeometry height="26" width="790" x="471" y="653" as="geometry" />
+        <mxCell id="_3RMw-T6m1LwHC8mCFnw-56" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#EA4335;fontStyle=1;" value="▶ 跨卡通信热点：卡 #0 / #1 / #2 在 2 ~ 4.8 ms 窗口内密集通信" vertex="1">
+          <mxGeometry height="26" width="790" x="570" y="653" as="geometry" />
         </mxCell>
         <mxCell id="_3RMw-T6m1LwHC8mCFnw-57" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#EA4335;fontStyle=1;" value="▶ 尾部负载不均衡：卡 #2 在 7.6 ms 后进入空闲，卡 #n 仍在计算" vertex="1">
-          <mxGeometry height="26" width="790" x="471" y="681" as="geometry" />
+          <mxGeometry height="26" width="790" x="570" y="679" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
