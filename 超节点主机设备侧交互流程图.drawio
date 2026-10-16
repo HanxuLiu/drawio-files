@@ -884,7 +884,7 @@
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;fontColor=#1A365D;fontStyle=1;" value="片上网络 NoC" vertex="1">
           <mxGeometry height="80" width="140" x="1408" y="1183" as="geometry" />
         </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;strokeColor=none;fontSize=13;fontColor=#7F6000;fontStyle=1;" value="UB 互联接口 — 单机八卡：PCIe / 卡间高速互联　|　超节点：UB 全对等互联（288 CPU × 576 AI 卡，单跳可达）" vertex="1">
+        <mxCell id="cu_I6cWHAKR13OXXw-Nj-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;strokeColor=none;fontSize=13;fontColor=#7F6000;fontStyle=1;" value="UB 互联接口&lt;div&gt;单机八卡：PCIe / 卡间高速互联&lt;/div&gt;&lt;div&gt;超节点：UB 全对等互联（288 CPU × 576 AI 卡）&lt;/div&gt;" vertex="1">
           <mxGeometry height="55" width="1170" x="393" y="1288" as="geometry" />
         </mxCell>
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-58" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#ED1C24;strokeWidth=3;endArrow=block;endFill=1;">
