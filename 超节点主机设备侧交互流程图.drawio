@@ -989,9 +989,6 @@
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-74" parent="1" style="text;html=1;fontSize=11;fontColor=#424242;align=left;" value="全域时间同步" vertex="1">
           <mxGeometry height="24" width="200" x="1248" y="1426" as="geometry" />
         </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-75" parent="1" style="text;html=1;fontSize=11;fontColor=#1A73E8;fontStyle=1;align=left;" value="【P0】4 月原型必交付　【P1】原型期间尽力交付　【P2】原型之后迭代" vertex="1">
-          <mxGeometry height="24" width="400" x="1178" y="1456" as="geometry" />
-        </mxCell>
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-76" parent="1" style="text;html=1;fontSize=11;fontColor=#1E6B33;fontStyle=1;align=left;" value="Host 主机端配色：绿 = 前端 / 橙 = 服务 / 蓝 = 运行时 / 紫 = 驱动 / 灰 = CPU 硬件" vertex="1">
           <mxGeometry height="24" width="1170" x="393" y="1496" as="geometry" />
         </mxCell>
