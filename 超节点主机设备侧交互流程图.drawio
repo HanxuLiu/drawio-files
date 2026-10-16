@@ -794,7 +794,7 @@
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=none;fontSize=13;fontColor=#3C4043;fontStyle=1;" value="CPU 核 · 内存 · PCIe / UB 接口" vertex="1">
           <mxGeometry height="50" width="1170" x="393" y="563" as="geometry" />
         </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-27" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#FB8C00;strokeWidth=3;fontSize=13;fontColor=#B45309;fontStyle=1;" value="PCIe / UB 全对等互联&#xa;单机八卡：PCIe / 卡间高速互联　|　超节点：UB 单跳可达（288 CPU × 576 AI 卡）" vertex="1">
+        <mxCell id="cu_I6cWHAKR13OXXw-Nj-27" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#FB8C00;strokeWidth=3;fontSize=13;fontColor=#B45309;fontStyle=1;" value="PCIe / UB 全对等互联&lt;br&gt;单机八卡：PCIe / 卡间高速互联　|　超节点：UB 全对等互联（288 CPU × 576 AI 卡）" vertex="1">
           <mxGeometry height="65" width="820" x="568" y="638" as="geometry" />
         </mxCell>
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=none;fontSize=15;fontColor=#0B3D91;fontStyle=1;verticalAlign=top;align=left;spacingLeft=14;spacingTop=8;" value="AI 加速卡侧（Device 侧 · A3 芯片）" vertex="1">
