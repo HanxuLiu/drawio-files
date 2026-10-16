@@ -977,7 +977,7 @@
             <mxPoint x="808" y="1468" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-72" parent="1" style="text;html=1;fontSize=11;fontColor=#424242;align=left;" value="性能数据上报（Device → Host，流式）" vertex="1">
+        <mxCell id="cu_I6cWHAKR13OXXw-Nj-72" parent="1" style="text;html=1;fontSize=11;fontColor=#424242;align=left;" value="性能数据上报（Device → Host，流式响应）" vertex="1">
           <mxGeometry height="24" width="330" x="818" y="1456" as="geometry" />
         </mxCell>
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-73" edge="1" parent="1" style="endArrow=block;html=1;strokeColor=#9C27B0;strokeWidth=3;endFill=1;" value="">
