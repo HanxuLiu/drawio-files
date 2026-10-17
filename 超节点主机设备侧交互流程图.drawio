@@ -839,32 +839,11 @@
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#29ABE2;strokeColor=none;fontSize=18;fontColor=#000000;fontStyle=0;" value="时钟频率获取、节拍计数" vertex="1">
           <mxGeometry height="85" width="265" x="1283" y="1043" as="geometry" />
         </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#BDBDBD;fontSize=18;fontColor=#000000;fontStyle=0;verticalAlign=top;align=left;spacingLeft=12;spacingTop=6;" value="计算部件" vertex="1">
-          <mxGeometry height="130" width="570" x="393" y="1148" as="geometry" />
+        <mxCell id="cu_I6cWHAKR13OXXw-Nj-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#BDBDBD;fontSize=18;fontColor=#000000;fontStyle=0;verticalAlign=top;align=center;spacingLeft=12;spacingTop=6;" value="计算部件：矩阵、向量、标量运算单元" vertex="1">
+          <mxGeometry height="52" width="537" x="431" y="1197" as="geometry" />
         </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=18;fontColor=#000000;fontStyle=0;" value="矩阵运算单元" vertex="1">
-          <mxGeometry height="80" width="170" x="408" y="1183" as="geometry" />
-        </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=18;fontColor=#000000;fontStyle=0;" value="向量运算单元" vertex="1">
-          <mxGeometry height="80" width="170" x="588" y="1183" as="geometry" />
-        </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=18;fontColor=#000000;fontStyle=0;" value="标量控制核" vertex="1">
-          <mxGeometry height="80" width="185" x="768" y="1183" as="geometry" />
-        </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#BDBDBD;fontSize=18;fontColor=#000000;fontStyle=0;verticalAlign=top;align=left;spacingLeft=12;spacingTop=6;" value="存储与搬运：SM / HBM" vertex="1">
-          <mxGeometry height="130" width="590" x="973" y="1148" as="geometry" />
-        </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=18;fontColor=#000000;fontStyle=0;" value="片上内存" vertex="1">
-          <mxGeometry height="80" width="130" x="988" y="1183" as="geometry" />
-        </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=18;fontColor=#000000;fontStyle=0;" value="HBM 设备内存" vertex="1">
-          <mxGeometry height="80" width="130" x="1128" y="1183" as="geometry" />
-        </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=18;fontColor=#000000;fontStyle=0;" value="DMA 引擎" vertex="1">
-          <mxGeometry height="80" width="130" x="1268" y="1183" as="geometry" />
-        </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=18;fontColor=#000000;fontStyle=0;" value="片上网络" vertex="1">
-          <mxGeometry height="80" width="140" x="1408" y="1183" as="geometry" />
+        <mxCell id="cu_I6cWHAKR13OXXw-Nj-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#BDBDBD;fontSize=18;fontColor=#000000;fontStyle=0;verticalAlign=top;align=center;spacingLeft=12;spacingTop=6;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;存储与搬运：SM/HBM内存、 DMA引擎、片上网络&lt;/font&gt;" vertex="1">
+          <mxGeometry height="52" width="537" x="988" y="1197" as="geometry" />
         </mxCell>
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;strokeColor=none;fontSize=18;fontColor=#000000;fontStyle=1;" value="UB 互联接口&lt;div&gt;单机八卡：PCIe / 卡间高速互联&lt;/div&gt;&lt;div&gt;超节点：UB 全对等互联（288 CPU × 576 AI 卡）&lt;/div&gt;" vertex="1">
           <mxGeometry height="72" width="1170" x="393" y="1288" as="geometry" />
