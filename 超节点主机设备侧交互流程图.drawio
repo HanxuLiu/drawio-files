@@ -725,10 +725,10 @@
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=none;roundedPerimeter=1;fontColor=#000000;" value="" vertex="1">
           <mxGeometry height="100" width="918" x="440" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#34A853;fontSize=20;fontColor=#000000;fontStyle=0;roundedPerimeter=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;调试工具（Debugger）&lt;/span&gt;" vertex="1">
+        <mxCell id="cu_I6cWHAKR13OXXw-Nj-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;fontSize=20;fontStyle=0;roundedPerimeter=1;gradientColor=#97d077;" value="&lt;span style=&quot;text-align: left;&quot;&gt;调试工具（Debugger）&lt;/span&gt;" vertex="1">
           <mxGeometry height="56" width="275" x="577.5" y="522" as="geometry" />
         </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#34A853;fontSize=20;fontColor=#000000;fontStyle=0;roundedPerimeter=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;性能分析工具（Profiler）&lt;/span&gt;" vertex="1">
+        <mxCell id="cu_I6cWHAKR13OXXw-Nj-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;fontSize=20;fontStyle=0;roundedPerimeter=1;gradientColor=#97d077;" value="&lt;span style=&quot;text-align: left;&quot;&gt;性能分析工具（Profiler）&lt;/span&gt;" vertex="1">
           <mxGeometry height="56" width="380" x="908" y="522" as="geometry" />
         </mxCell>
         <mxCell id="SInkrnVJ8VC2sp4QpT0D-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=#000000;fontStyle=0;fillColor=#FFE599;strokeColor=none;" value="" vertex="1">
@@ -737,10 +737,10 @@
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E5F5;strokeColor=none;fontSize=18;roundedPerimeter=1;fontColor=#000000;" value="" vertex="1">
           <mxGeometry height="85" width="918" x="439" y="628" as="geometry" />
         </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#7B1FA2;fontSize=20;fontColor=#000000;fontStyle=0;roundedPerimeter=1;" value="调试命令下发通道 + 性能数据采集通道 + Kernel Launch 拦截 + 频率采集通道" vertex="1">
+        <mxCell id="cu_I6cWHAKR13OXXw-Nj-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;fontSize=20;fontStyle=0;roundedPerimeter=1;" value="调试命令下发通道 + 性能数据采集通道 + Kernel Launch 拦截 + 频率采集通道" vertex="1">
           <mxGeometry height="45" width="707" x="622.5" y="648" as="geometry" />
         </mxCell>
-        <mxCell id="cu_I6cWHAKR13OXXw-Nj-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;fontStyle=0;roundedPerimeter=1;fontColor=#000000;" value="CPU 核 · 内存 · PCIe / UB 接口" vertex="1">
+        <mxCell id="cu_I6cWHAKR13OXXw-Nj-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;fontStyle=0;roundedPerimeter=1;fontColor=#000000;" value="CPU 核 · 内存 · PCIe / UB 接口" vertex="1">
           <mxGeometry height="50" width="918" x="440" y="730" as="geometry" />
         </mxCell>
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-27" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#FB8C00;strokeWidth=3;fontSize=22;fontColor=#000000;fontStyle=0;roundedPerimeter=1;" value="PCIe / UB 全对等互联" vertex="1">
@@ -762,7 +762,7 @@
           <mxGeometry height="52" width="96" x="453.5" y="1204" as="geometry" />
         </mxCell>
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;fontStyle=0;verticalAlign=top;align=left;spacingTop=6;spacingLeft=12;fontFamily=Helvetica;gradientColor=#ffd966;roundedPerimeter=1;fontColor=#000000;" value="调试单元：断点、观察点、控制运行" vertex="1">
-          <mxGeometry height="52" width="322" x="568" y="1140" as="geometry" />
+          <mxGeometry height="52" width="352" x="549.5" y="1140" as="geometry" />
         </mxCell>
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;fontStyle=0;align=left;verticalAlign=top;spacingLeft=12;spacingTop=6;fontFamily=Helvetica;gradientColor=#ffd966;roundedPerimeter=1;fontColor=#000000;" value="性能计数器（PMU）" vertex="1">
           <mxGeometry height="52" width="200" x="950" y="1140" as="geometry" />
@@ -771,10 +771,10 @@
           <mxGeometry height="52" width="158" x="1181" y="1140" as="geometry" />
         </mxCell>
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;fontStyle=0;verticalAlign=top;align=left;spacingLeft=12;spacingTop=6;gradientColor=#ffd966;roundedPerimeter=1;fontColor=#000000;" value="计算部件：矩阵、向量、标量运算单元" vertex="1">
-          <mxGeometry height="52" width="322" x="568" y="1222" as="geometry" />
+          <mxGeometry height="52" width="358.5" x="549.5" y="1220" as="geometry" />
         </mxCell>
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=20;fontStyle=0;verticalAlign=top;align=left;spacingLeft=12;spacingTop=6;gradientColor=#ffd966;roundedPerimeter=1;fontColor=#000000;" value="&lt;font&gt;存储与搬运：SM/HBM、 DMA引擎、片上网络&lt;/font&gt;" vertex="1">
-          <mxGeometry height="52" width="438" x="905" y="1219" as="geometry" />
+          <mxGeometry height="52" width="438" x="913" y="1219" as="geometry" />
         </mxCell>
         <mxCell id="cu_I6cWHAKR13OXXw-Nj-58" edge="1" parent="1" source="cu_I6cWHAKR13OXXw-Nj-5" style="edgeStyle=none;html=1;strokeColor=#ED1C24;strokeWidth=3;endArrow=block;endFill=1;entryX=0.365;entryY=0.016;entryDx=0;entryDy=0;exitX=0.699;exitY=0.99;exitDx=0;exitDy=0;fontSize=20;fontColor=#000000;" target="SInkrnVJ8VC2sp4QpT0D-2">
           <mxGeometry relative="1" x="-0.1217" as="geometry">
