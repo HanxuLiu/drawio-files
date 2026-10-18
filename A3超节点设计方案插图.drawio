@@ -196,14 +196,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="scv_CUh3FrSNIhINmav2" name="调试工具模块分层结构">
-    <mxGraphModel dx="964" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1187" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="uo8WuQSj15B845aeTxWE-2" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="调试前端层" vertex="1">
           <mxGeometry height="100" width="210" x="435" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="uo8WuQSj15B845aeTxWE-3" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="命令行调试器 · 图形化多卡调试界面" vertex="1">
+        <mxCell id="uo8WuQSj15B845aeTxWE-3" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="命令行调试器 · 调试命令输入" vertex="1">
           <mxGeometry height="100" width="630" x="665" y="650" as="geometry" />
         </mxCell>
         <mxCell id="uo8WuQSj15B845aeTxWE-4" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="调试协议层" vertex="1">
