@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="7">
+<mxfile host="app.diagrams.net" pages="9">
   <diagram id="d1" name="调试与性能分析工具总体结构">
     <mxGraphModel dx="1071" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="700" math="0" shadow="0">
       <root>
@@ -245,6 +245,56 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="V2" id="PQ94ehT95Ira4iRpLM8e">
+    <mxGraphModel dx="1203" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="rlOAigDlgBOhRMY2rURU-0" />
+        <mxCell id="rlOAigDlgBOhRMY2rURU-1" parent="rlOAigDlgBOhRMY2rURU-0" />
+        <mxCell id="rlOAigDlgBOhRMY2rURU-2" parent="rlOAigDlgBOhRMY2rURU-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="调试前端层" vertex="1">
+          <mxGeometry height="100" width="210" x="435" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="rlOAigDlgBOhRMY2rURU-3" parent="rlOAigDlgBOhRMY2rURU-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="命令行调试器 · 调试命令输入" vertex="1">
+          <mxGeometry height="100" width="630" x="665" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="rlOAigDlgBOhRMY2rURU-4" parent="rlOAigDlgBOhRMY2rURU-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="调试协议层" vertex="1">
+          <mxGeometry height="100" width="210" x="435" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="rlOAigDlgBOhRMY2rURU-5" parent="rlOAigDlgBOhRMY2rURU-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="同步 / 异步命令 · 调试事件上报 · 数据读写请求" vertex="1">
+          <mxGeometry height="100" width="630" x="665" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="rlOAigDlgBOhRMY2rURU-6" edge="1" parent="rlOAigDlgBOhRMY2rURU-1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=22;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="752" as="sourcePoint" />
+            <mxPoint x="540" y="778" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rlOAigDlgBOhRMY2rURU-7" parent="rlOAigDlgBOhRMY2rURU-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="调试服务层" vertex="1">
+          <mxGeometry height="100" width="210" x="435" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="rlOAigDlgBOhRMY2rURU-8" parent="rlOAigDlgBOhRMY2rURU-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="会话管理 · 命令路由 · 多卡协调 · 全局状态视图" vertex="1">
+          <mxGeometry height="100" width="630" x="665" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="rlOAigDlgBOhRMY2rURU-9" edge="1" parent="rlOAigDlgBOhRMY2rURU-1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=22;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="882" as="sourcePoint" />
+            <mxPoint x="540" y="908" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rlOAigDlgBOhRMY2rURU-10" parent="rlOAigDlgBOhRMY2rURU-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#F1F3F4;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#000000;align=center;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="调试代理层" vertex="1">
+          <mxGeometry height="100" width="210" x="435" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="rlOAigDlgBOhRMY2rURU-11" parent="rlOAigDlgBOhRMY2rURU-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="卡侧轻量代理 · 主机侧代理 · 断点 / 观察点执行单元" vertex="1">
+          <mxGeometry height="100" width="630" x="665" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="rlOAigDlgBOhRMY2rURU-12" edge="1" parent="rlOAigDlgBOhRMY2rURU-1" style="edgeStyle=none;html=1;rounded=0;strokeColor=#5F6368;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=22;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1012" as="sourcePoint" />
+            <mxPoint x="540" y="1038" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="hy6ygTUnLERvWcLZ5pYQ" name="性能分析工具模块分层结构">
     <mxGraphModel dx="1187" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -290,6 +340,56 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="525" y="1021" as="sourcePoint" />
             <mxPoint x="525" y="1047" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="性能分析工具模块分层结构 的副本" id="4LFrqQ7c9hDdwjMKTns8">
+    <mxGraphModel dx="1791" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-0" />
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-1" parent="MnRBiWChXYwRjWlSHlxf-0" />
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-2" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;align=left;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="&amp;nbsp; 性能可视化层" vertex="1">
+          <mxGeometry height="100" width="600" x="-190" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-3" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="Timeline ·&amp;nbsp; 指标仪表盘 · 热力图" vertex="1">
+          <mxGeometry height="100" width="630" x="650" y="659" as="geometry" />
+        </mxCell>
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-4" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;align=left;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="&amp;nbsp; 分析引擎层" vertex="1">
+          <mxGeometry height="100" width="600" x="-190" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-5" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="指标计算 · 瓶颈检测 · 跨卡关联" vertex="1">
+          <mxGeometry height="100" width="630" x="650" y="789" as="geometry" />
+        </mxCell>
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-6" edge="1" parent="MnRBiWChXYwRjWlSHlxf-1" style="edgeStyle=none;html=1;rounded=0;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=22;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-85" y="742" as="sourcePoint" />
+            <mxPoint x="-85" y="768" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-7" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;align=left;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="&amp;nbsp; 数据汇聚层" vertex="1">
+          <mxGeometry height="100" width="600" x="-190" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-8" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="跨卡数据汇聚 · 全局时间基准对齐 · 压缩传输" vertex="1">
+          <mxGeometry height="100" width="630" x="650" y="919" as="geometry" />
+        </mxCell>
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-9" edge="1" parent="MnRBiWChXYwRjWlSHlxf-1" style="edgeStyle=none;html=1;rounded=0;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=22;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-85" y="872" as="sourcePoint" />
+            <mxPoint x="-85" y="898" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-10" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;align=left;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="&amp;nbsp; 性能采集层" vertex="1">
+          <mxGeometry height="100" width="600" x="-190" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-11" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="硬件计数器 · 时间戳打点 · 软件插桩" vertex="1">
+          <mxGeometry height="100" width="630" x="650" y="1049" as="geometry" />
+        </mxCell>
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-12" edge="1" parent="MnRBiWChXYwRjWlSHlxf-1" style="edgeStyle=none;html=1;rounded=0;strokeWidth=2;startArrow=block;startFill=1;endArrow=block;endFill=1;fontSize=22;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-85" y="1002" as="sourcePoint" />
+            <mxPoint x="-85" y="1028" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
