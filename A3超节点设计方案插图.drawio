@@ -346,18 +346,18 @@
     </mxGraphModel>
   </diagram>
   <diagram name="性能分析工具模块分层结构 的副本" id="4LFrqQ7c9hDdwjMKTns8">
-    <mxGraphModel dx="1791" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2112" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="MnRBiWChXYwRjWlSHlxf-0" />
         <mxCell id="MnRBiWChXYwRjWlSHlxf-1" parent="MnRBiWChXYwRjWlSHlxf-0" />
-        <mxCell id="MnRBiWChXYwRjWlSHlxf-2" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;align=left;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="&amp;nbsp; 性能可视化层" vertex="1">
-          <mxGeometry height="100" width="600" x="-190" y="640" as="geometry" />
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-2" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;align=left;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&amp;nbsp; 性能可视化层" vertex="1">
+          <mxGeometry height="100" width="700" x="-190" y="640" as="geometry" />
         </mxCell>
         <mxCell id="MnRBiWChXYwRjWlSHlxf-3" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="Timeline ·&amp;nbsp; 指标仪表盘 · 热力图" vertex="1">
           <mxGeometry height="100" width="630" x="650" y="659" as="geometry" />
         </mxCell>
-        <mxCell id="MnRBiWChXYwRjWlSHlxf-4" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;align=left;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="&amp;nbsp; 分析引擎层" vertex="1">
-          <mxGeometry height="100" width="600" x="-190" y="770" as="geometry" />
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-4" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;align=left;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&amp;nbsp; 分析引擎层" vertex="1">
+          <mxGeometry height="100" width="700" x="-190" y="770" as="geometry" />
         </mxCell>
         <mxCell id="MnRBiWChXYwRjWlSHlxf-5" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="指标计算 · 瓶颈检测 · 跨卡关联" vertex="1">
           <mxGeometry height="100" width="630" x="650" y="789" as="geometry" />
@@ -368,8 +368,8 @@
             <mxPoint x="-85" y="768" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MnRBiWChXYwRjWlSHlxf-7" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;align=left;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="&amp;nbsp; 数据汇聚层" vertex="1">
-          <mxGeometry height="100" width="600" x="-190" y="900" as="geometry" />
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-7" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;align=left;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&amp;nbsp; 数据汇聚层" vertex="1">
+          <mxGeometry height="100" width="700" x="-190" y="900" as="geometry" />
         </mxCell>
         <mxCell id="MnRBiWChXYwRjWlSHlxf-8" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="跨卡数据汇聚 · 全局时间基准对齐 · 压缩传输" vertex="1">
           <mxGeometry height="100" width="630" x="650" y="919" as="geometry" />
@@ -380,8 +380,8 @@
             <mxPoint x="-85" y="898" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MnRBiWChXYwRjWlSHlxf-10" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;align=left;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;" value="&amp;nbsp; 性能采集层" vertex="1">
-          <mxGeometry height="100" width="600" x="-190" y="1030" as="geometry" />
+        <mxCell id="MnRBiWChXYwRjWlSHlxf-10" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;align=left;verticalAlign=middle;fontStyle=1;fontFamily=Helvetica;fillColor=#fff2cc;strokeColor=#d6b656;" value="&amp;nbsp; 性能采集层" vertex="1">
+          <mxGeometry height="100" width="700" x="-190" y="1030" as="geometry" />
         </mxCell>
         <mxCell id="MnRBiWChXYwRjWlSHlxf-11" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#80868B;strokeWidth=2;fontSize=22;fontColor=#202124;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;" value="硬件计数器 · 时间戳打点 · 软件插桩" vertex="1">
           <mxGeometry height="100" width="630" x="650" y="1049" as="geometry" />
@@ -391,6 +391,18 @@
             <mxPoint x="-85" y="1002" as="sourcePoint" />
             <mxPoint x="-85" y="1028" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7sz_-IbT8xj2ybShLnS6-0" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span style=&quot;color: rgb(32, 33, 36); font-size: 22px; font-weight: 700;&quot;&gt;性能数据Timeline&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="-30" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="7sz_-IbT8xj2ybShLnS6-1" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span style=&quot;color: rgb(32, 33, 36); font-size: 22px; font-weight: 700;&quot;&gt;指标仪表盘&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="140" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="7sz_-IbT8xj2ybShLnS6-2" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span style=&quot;color: rgb(32, 33, 36); font-size: 22px; font-weight: 700;&quot;&gt;Timeline ·&amp;nbsp; 指标仪表盘 · 热力图&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="490" y="699" as="geometry" />
+        </mxCell>
+        <mxCell id="7sz_-IbT8xj2ybShLnS6-3" parent="MnRBiWChXYwRjWlSHlxf-1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span style=&quot;color: rgb(32, 33, 36); font-size: 22px; font-weight: 700;&quot;&gt;热力图&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="310" y="660" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
